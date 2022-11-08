@@ -6,7 +6,20 @@ body{
     width:100vw;
     height:100vh;
     font-family: Kanit;
+    background-color: #172135;
+    background-image: 
+        radial-gradient(at 47% 33%, hsl(240.59, 50%, 47%) 0, transparent 59%), 
+        radial-gradient(at 82% 65%, hsl(218.24, 65%, 28.000000000000004%) 0, transparent 55%);
 }
+
+.container-fluid{
+    margin:0;
+}
+
+.imgContainer{
+    margin: 0;
+}
+
 
 .title{
 
@@ -19,3 +32,19 @@ body{
     text-align: right;
 }
 
+.introText{
+    color:rgb(175, 175, 182);
+}
+
+.card {
+    backdrop-filter: blur(13px) saturate(180%);
+    -webkit-backdrop-filter: blur(13px) saturate(100%);
+    background-color: rgba(17, 25, 40, 0.50);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    color:rgb(175, 175, 182);
+}
+
+footer{
+    color:rgb(175, 175, 182);
+}
