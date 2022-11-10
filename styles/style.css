@@ -9,6 +9,7 @@ body{
     background-image: 
         radial-gradient(at 47% 33%, hsl(240.59, 50%, 47%) 0, transparent 59%), 
         radial-gradient(at 82% 65%, hsl(218.24, 65%, 28.000000000000004%) 0, transparent 55%);
+    color:rgb(175, 175, 182); ;
 }
 
 .topHeader{
@@ -44,7 +45,14 @@ body{
     color:rgb(175, 175, 182);
 }
 
-a:link{
+.list-group{
+    
+}
+
+
+
+a:link,
+nav-link:link{
     color:rgb(1, 1, 15);
 }
 
