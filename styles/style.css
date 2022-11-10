@@ -3,16 +3,15 @@
 }
 
 body{
-    width:100vw;
-    height:100vh;
     font-family: Kanit;
+    background-color: blueviolet;
     background-color: #172135;
     background-image: 
         radial-gradient(at 47% 33%, hsl(240.59, 50%, 47%) 0, transparent 59%), 
         radial-gradient(at 82% 65%, hsl(218.24, 65%, 28.000000000000004%) 0, transparent 55%);
 }
 
-.container-fluid{
+.topHeader{
     margin:0;
 }
 
@@ -45,6 +44,14 @@ body{
     color:rgb(175, 175, 182);
 }
 
+a:link{
+    color:rgb(1, 1, 15);
+}
+
 footer{
     color:rgb(175, 175, 182);
+}
+
+.card-img-top{
+
 }
