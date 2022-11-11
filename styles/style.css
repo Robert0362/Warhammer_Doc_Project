@@ -51,9 +51,12 @@ body{
 
 
 
-a:link,
-nav-link:link{
+a:link, nav-link:link, a:visited{
     color:rgb(1, 1, 15);
+}
+
+.email:link{
+    color:rgb(175, 175, 182);
 }
 
 footer{
