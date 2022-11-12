@@ -48,7 +48,13 @@ body{
 .list-group{
     
 }
+a{
+    text-decoration: none;
+}
 
+.list-group-item:hover{
+    background-color:rgb(142, 171, 252)
+}
 
 
 a:link, nav-link:link, a:visited{
