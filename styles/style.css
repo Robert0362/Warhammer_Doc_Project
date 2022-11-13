@@ -63,6 +63,7 @@ a:link, nav-link:link, a:visited{
 
 .email:link{
     color:rgb(175, 175, 182);
+    text-align: right;
 }
 
 footer{
