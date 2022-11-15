@@ -71,8 +71,21 @@ a:link, nav-link:link, a:visited{
 
 footer{
     color:rgb(175, 175, 182);
+    
 }
 
 .card-img-top{
 
+}
+
+.navbar{
+    background-color:rgba(46, 67, 109, .85);
+}
+
+.footerNavBar{
+    background-color:rgba(46, 67, 109, .85);
+}
+
+.logo{
+    width: 90%;
 }
